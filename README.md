@@ -21,14 +21,18 @@ http://localhost:8080/
 
 ## DB情報は「docker-compose.yml」を確認する
 
+## Composerエラーの解決策
+composer diag<br>
+でエラーの内容を確認する
+
 ## 認証設定
 composer require laravel/breeze --dev
 
-php artisan breeze:install
-or
-php artisan breeze:install vue
-or
-php artisan breeze:install react
+php artisan breeze:install<br>
+or<br>
+php artisan breeze:install vue<br>
+or<br>
+php artisan breeze:install react<br>
 
 ## npm install
 npm install
